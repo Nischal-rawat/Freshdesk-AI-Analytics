@@ -70,4 +70,7 @@ REQUIRED_FOLDERS = [
 ]
 
 for folder in REQUIRED_FOLDERS:
-    folder.mkdir(parents=True, exist_ok=True)
+    try:
+        folder.mkdir(parents=True, exist_ok=True)
+    except (OSError, PermissionError):
+        pass
