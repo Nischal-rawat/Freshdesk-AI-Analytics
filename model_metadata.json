@@ -1,0 +1,13 @@
+{
+    "Version": "5.0",
+    "Keyword Categories": 11,
+    "Similarity Threshold": 0.85,
+    "Clusters": 10,
+    "Random State": 42,
+    "ML": "TF-IDF + Multinomial Naive Bayes",
+    "Rule Engine": "Enabled",
+    "Duplicate Detection": "Enabled",
+    "Customer Health": "Enabled",
+    "Dashboard": "Plotly",
+    "Export": "Excel + HTML + JSON"
+}
